@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <div style ="background-image :url('img5.jpg');">
+		
+               <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+        </style>
+    </head>
+    <body>
+        <div>
+        <div class="navbar">
+            <h1><a href="/">Home</a></h1>
+        </div>
+        <div id="id01" class="modal">
+            <form class="modal-content" action="/register_user" method="POST">
+                <div class="container">
+                    <h1>Welcome To online leave portal</h1>
+                    <p>You are just a step away from quality Services.</p>
+					
+                    <hr>
+                    <center><label for="username"><b>Username</b></label>
+                    <input id="username" type="text" placeholder="Enter unique username..." name="username"><br >
+
+                    <br><label for="password"><b>Password</b></label>
+                    <input id="password" type="password" placeholder="Enter password..." name="password"><br>
+					
+					<br><label for="designation"><b>designation</b></label>
+                    <input id="designation" type="text" placeholder="Enter your job type" name="designation"><br>
+
+                    <br><label for="email"><b>Email</b></label>
+                    <input id="email" type="text" placeholder="Enter your email..." name="email"><br>
+
+                    <br><label for="dob"><b>dob</b></label>
+                    <input id="dob" type="datetime" placeholder="Enter birth date..." name="dob"><br>
+					
+					<br><label for="address"><b>address</b></label>
+                    <input id="address" type="address" placeholder="Enter address..." name="address"><br>
+					
+					<br><label for="contacts"><b>contacts</b></label>
+                    <input id="contacts" type="contacts" placeholder="Enter contacts..." name="contacts"><br>
+                    
+                    <br><p>By signing up you agree to our <a href="/terms" style="color:dodgerblue">Terms & Privacy conditions</a></p></center>
+            
+                    <div class="clearfix">
+                        <center><button type="button" onclick="window.location = '/'" class="cancelbtn">Cancel</button>
+                        <button type="submit" class="signupbtn"><b>Sign Up</b></button></div></center>
+                    </div>
+					
+                </div>
+            </form>
+        </div>
+    </div>
+    </body>
+</html>
